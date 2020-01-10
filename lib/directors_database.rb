@@ -1,4 +1,5 @@
 require 'yaml'
+requre 'pp'
 
 def directors_database
 	rot13 = -> (s) { s.tr('A-Za-z', 'N-ZA-Mn-za-m') }
